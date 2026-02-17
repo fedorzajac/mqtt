@@ -5,8 +5,6 @@ services:
     ports:
       - "1883:1883"   # MQTT messages
       - "18083:18083" # dashboard
-      - "8083:8083"
-      - "8084:8084"
     environment:
       EMQX_DASHBOARD__DEFAULT_USERNAME: admin
       EMQX_DASHBOARD__DEFAULT_PASSWORD: admin
